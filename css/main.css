@@ -49,11 +49,30 @@ body {
   align-items: center;
 }
 
-.nav a {
+a {
   color: #fff;
   padding: .5em;
   border-radius: 1em;
   text-decoration: none;
+}
+
+a:hover {
+  background-color: #bea59b;
+  outline: .15rem solid #fff;
+  outline-offset: .2rem;
+}
+
+a:focus {
+  outline: .15rem solid #fff;
+  background-color: #bea59b;
+  outline-offset: .2rem;
+}
+
+div a:hover {
+  background-color: #522806;
+  outline: .15rem solid #bea59b;
+  outline-offset: .2rem;
+  color: #fff;
 }
 
 .banner {
@@ -63,6 +82,7 @@ body {
   grid-template-areas: "banner";
   color: #fff;
   font-size: 1.5rem;
+  background-color: #000;
 }
 
 .banner img {
